@@ -7,7 +7,7 @@ body{
   height: 150px;
   overflow: hidden;
 }
-.header h1,h2,h3,h4,h5,h6,p,a{
+.header h1,h2,h3,h4,h5,h6,p{
   color: white;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -21,10 +21,10 @@ hr{
 a{
   text-decoration: none;
   display: block;
-  text-align: center;
-  line-height: 50px;
 }
 .header a{
+    text-align: center;
+    line-height: 50px;
     height: 48px;
     width: 96px;
     background: #212121;
@@ -59,6 +59,8 @@ a{
 }
 .upper_content a{
   color: white;
+  text-align: center;
+  line-height: 50px;
 }
 .title{
   background: rgba(255, 255, 255, 0.5);
