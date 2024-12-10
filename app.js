@@ -12,10 +12,10 @@
 //   console.log(color);
 // });
 function start() {
-  Push.create("Уведомление от t.me/sitodel!", {
-    body:"Уведомление о свежих новостях от канала по веб-разработке.",
-    icon:'https://static10. tgstat.ru/channnels/_0/f9/f9a29332e2b06463e81938e26ec2adc1.jpg',
-    timeout: 4000
+  Push.create("тестовое уведомление", {
+    body:"просто тестирование",
+    icon:'on_construction.png',
+    action:"эм"
   });
 }
 document.querySelector('#button').addEventListener('click',() => start());
