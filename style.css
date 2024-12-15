@@ -6,6 +6,7 @@ body{
   background: #000;
   height: 150px;
   overflow: hidden;
+
 }
 .header h1,h2,h3,h4,h5,h6,p{
   color: white;
@@ -23,16 +24,23 @@ a{
   display: block;
 }
 .header a{
+
     text-align: center;
     line-height: 50px;
     height: 48px;
-    width: 96px;
+    width: 100px;
     background: #212121;
     border-right-width: 2px;
     border-right-color: #585858;
     border-right-style: solid;
     float: left;
     color: white;
+
+}
+.header.big{
+
+  line-height: 20px;
+
 }
 .icon_description{
   margin-left: 100px;
@@ -55,7 +63,8 @@ a{
   height: 600px;
   top: 150px;
   left: 0;
-
+  background-repeat:repeat-y;
+  background-size: contain;
 }
 .upper_content a{
   color: white;
@@ -67,8 +76,8 @@ a{
   width: 500px;
   border-radius: 10px;
   position: absolute;
-  top: 186.7px;
-  left: 527.7px;
+  top: 33%;
+  left: 33.33333333333%;
   text-align: center;
   line-height: 50px;
 }
