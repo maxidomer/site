@@ -1,13 +1,13 @@
-<div aling="center">
+<div align="center">
   
-## Это мой сайт!!!
-![Logo](icon-desc.png)
+  ## Это мой сайт!!! |||  [![site](icon2.png)](https://maxidomer.github.io/site/)
+  
 
-это сайт который я сделал сам!!!
+  это сайт который я сделал сам!!!
 
 </div>
 
-[![site](icon-desc.png)](https://maxidomer.github.io/site/)
+
 
 
 ## cool test
